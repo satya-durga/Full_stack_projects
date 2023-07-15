@@ -1,0 +1,68 @@
+*{
+    margin:none;
+    padding:none;
+    border:none
+}
+body{
+    background-color:#333;
+    color:#fff;
+}
+.done .tasktitle {
+    text-decoration: line-through;
+    color:#333;
+}
+.todo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:3rem;
+}
+.todo-body{
+    margin-top:2rem;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.group1{
+        padding-right:2rem;
+        font-size:1.2rem;
+}
+.text{
+    width:20rem;
+    margin-top:1rem;
+    }
+.width{
+    padding-left:1rem;
+}
+.width,.button{
+    height:2.5rem;
+
+}
+.button{
+    background-color:#0066cc;
+    color:#fff;
+    width:5rem;
+    font-size:1.2rem;
+     PADDING:0.2rem;
+    font-weight: bolder;
+}
+.todo-item{
+    background-color:#555;
+    padding:0.2rem;
+    font-size:1.4rem
+}
+.taskNumber{
+margin:0px 0.5rem;
+padding:0px 5px;
+color:#999;
+border:0.5px solid #999;
+border-radius: 50%;
+}
+.symbols span{
+    margin:0.2rem;
+    background-color: none;
+    color:green;
+    font-size:1.2rem;
+}
